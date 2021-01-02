@@ -1,0 +1,11 @@
+// Tilesets
+
+// Dragon's Gate
+
+ALIGN 4
+//DragonsGateTilesetObjects:
+//#incbin "Compressed Images/Dragons Gate.dmp"
+
+ALIGN 4
+
+//#include "TileAnims/TileAnims.event"

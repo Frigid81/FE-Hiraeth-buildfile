@@ -1,0 +1,133 @@
+#define Eliwood 0x1
+#define EliwoodMug 0x2
+
+#define Luke 0x2
+#define LukeMug 0x3
+
+#define Marcus 0x3
+#define MarcusMug 0x4
+
+#define Ninian 0x4
+#define NinianMug 0x5
+
+#define Natalie 0x5
+#define NatalieMug 0x6
+
+#define Harken 0x6
+#define HarkenMug 0x7
+
+#define Isadora 0x7
+#define IsadoraMug 0x8
+
+#define Lowen 0x8
+#define LowenMug 0x9
+
+#define Rebecca 0x9
+#define RebeccaMug 0xA
+
+#define Dorcas 0xA
+#define DorcasMug 0xB
+
+#define Raven 0xB
+#define RavenMug 0xC
+
+#define Lucius 0xC
+#define LuciusMug 0xD
+
+#define Warner 0x68
+#define WarnerMug 0xE
+#define LostResolveBandit 0x80
+
+#define Sain 0xD
+#define SainMug 0xF
+
+#define Wil 0xE
+#define WilMug 0x10
+
+#define Khitan 0x6A
+#define KhitanMug 0x11
+#define Kutolah 0x81
+#define Djute 0x82
+
+#define Rath 0x13
+#define RathMug 0x12
+#define Prasad 0x14
+#define PrasadMug 0x13
+
+#define Fiora 0x10
+#define FioraMug 0x14
+
+#define Lyn 0xF
+#define FakeLyn 0xCB
+#define LynMug 0x15
+
+#define Meredith 0x11
+#define MeredithMug 0x16
+
+#define Hector 0x1B
+#define HectorMug 0x17
+
+#define Oswin 0x1C
+#define OswinMug 0x18
+
+#define Matthew 0x1D
+#define MatthewMug 0x19
+
+#define Serra 0x1E
+#define SerraMug 0x1A
+
+#define Orun 0x1F
+#define OrunMug 0x1B
+
+#define Fargus 0x20
+#define FargusMug 0x1C
+
+#define Lisbet 0x21
+#define LisbetMug 0x1D
+
+#define Farina 0x22
+#define FarinaMug 0x1E
+
+#define Wagner 0x23
+#define WagnerMug 0x1F
+
+#define Erik 0x24
+#define ErikMug 0x20
+
+#define Dawson 0x6B
+#define DawsonMug 0x21
+#define Yorrick 0x6C
+#define YorrickMug 0x22
+#define Ostia 0x83
+#define Laus 0x84
+#define Ryerde 0x85
+#define Tuscana 0x86
+#define Thria 0x87
+
+#define Dayan 0x15
+#define DayanMug 0x23
+
+#define Guy 0x16
+#define GuyMug 0x24
+
+#define Niime 0x17
+#define NiimeMug 0x25
+
+#define Florina 0x18
+#define FlorinaMug 0x26
+
+#define Wallace 0x19
+#define WallaceMug 0x27
+
+#define Kent 0x1A
+#define KentMug 0x28
+
+#define HectorFormalMug 0x29
+
+
+
+
+
+
+
+

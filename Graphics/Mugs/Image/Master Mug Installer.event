@@ -1,0 +1,276 @@
+#include "Tools/Tool Helpers.txt"
+
+ALIGN 4
+PortraitShiftEdit:
+//Needs bytes of free space equal to the highest Portrait Number that you use.
+// I'm just going to give this 0x100 bytes of freespace.
+WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0
+WORD 0 0 0 0 0 0 0 0
+
+#define setUpshift(portraitID) "PUSH; ORG (PortraitShiftEdit+portraitID); BYTE 1; POP"
+
+#define MakoPortrait 0x2
+MakoMug:
+#incext PortraitFormatter "Mako.png"
+setMugEntry(MakoPortrait, MakoMug, 3, 5, 3, 3)
+
+#define HalcyonPortrait 0x4
+HalcyonMug:
+#incext PortraitFormatter "Halcyon.png"
+setMugEntry(HalcyonPortrait, HalcyonMug, 3, 5, 3, 3)
+
+#define NeptunePortrait 0x5
+NeptuneMug:
+#incext PortraitFormatter "Neptune.png"
+setMugEntry(NeptunePortrait, NeptuneMug, 2, 5, 3, 3)
+
+#define RosePortrait 0x6
+RoseMug:
+#incext PortraitFormatter "Rose.png"
+setMugEntry(RosePortrait, RoseMug, 3, 6, 3, 4)
+
+#define AkivarPortrait 0x7
+AkivarMug:
+#incext PortraitFormatter "Akivar.png"
+setMugEntry(AkivarPortrait, AkivarMug, 3, 6, 2, 4)
+
+#define AeliaPortrait 0x8
+AeliaMug:
+#incext PortraitFormatter "Aelia.png"
+setMugEntry(AeliaPortrait, AeliaMug, 3, 6, 4, 4)
+
+#define CharonPortrait 0x9
+CharonMug:
+#incext PortraitFormatter "Charon.png"
+setMugEntry(CharonPortrait, CharonMug, 2, 5, 3, 3)
+
+#define RemusPortrait 0xA
+RemusMug:
+#incext PortraitFormatter "Remus.png"
+setMugEntry(RemusPortrait, RemusMug, 2, 6, 3, 4)
+
+#define RomulusPortrait 0xC
+RomulusMug:
+#incext PortraitFormatter "Romulus.png"
+setMugEntry(RomulusPortrait, RomulusMug, 3, 5, 3, 3)
+
+#define SarahPortrait 0xE
+SarahMug:
+#incext PortraitFormatter "Sarah.png"
+setMugEntry(SarahPortrait, SarahMug, 2, 6, 3, 4)
+
+#define CoeusPortrait 0xF
+CoeusMug:
+#incext PortraitFormatter "Coeus.png"
+setMugEntry(CoeusPortrait, CoeusMug, 2, 5, 3, 3)
+
+#define JupiterPortrait 0x10
+JupiterMug:
+#incext PortraitFormatter "Jupiter.png"
+setMugEntry(JupiterPortrait, JupiterMug, 3, 5, 3, 3)
+
+#define CalypsoPortrait 0x11
+CalypsoMug:
+#incext PortraitFormatter "Calypso.png"
+setMugEntry(CalypsoPortrait, CalypsoMug, 3, 6, 3, 4)
+
+#define JoieuyhnPortrait 0x13
+JoieuyhnMug:
+#incext PortraitFormatter "Joieuyhn.png"
+setMugEntry(JoieuyhnPortrait, JoieuyhnMug, 3, 5, 3, 3)
+
+#define TananchoPortrait 0x14
+TananchoMug:
+#incext PortraitFormatter "Tanancho.png"
+setMugEntry(TananchoPortrait, TananchoMug, 3, 5, 3, 3)
+
+#define DioPortrait 0x15
+DioMug:
+#incext PortraitFormatter "Dio.png"
+setMugEntry(DioPortrait, DioMug, 4, 4, 3, 2)
+
+#define VirgilPortrait 0x16
+VirgilMug:
+#incext PortraitFormatter "Virgil.png"
+setMugEntry(VirgilPortrait, VirgilMug, 2, 4, 3, 2)
+
+#define WyattPortrait 0x18
+WyattMug:
+#incext PortraitFormatter "Wyatt.png"
+setMugEntry(WyattPortrait, WyattMug, 3, 6, 3, 4)
+
+#define BlairePortrait 0x19
+BlaireMug:
+#incext PortraitFormatter "Blaire.png"
+setMugEntry(BlairePortrait, BlaireMug, 3, 6, 3, 4)
+
+#define HypatiaPortrait 0x1A
+HypatiaMug:
+#incext PortraitFormatter "Hypatia.png"
+setMugEntry(HypatiaPortrait, HypatiaMug, 1, 5, 2, 3)
+
+#define UlrichPortrait 0x1B
+UlrichMug:
+#incext PortraitFormatter "Ulrich.png"
+setMugEntry(UlrichPortrait, UlrichMug, 3, 5, 3, 3)
+
+#define HecubaPortrait 0x1C
+HecubaMug:
+#incext PortraitFormatter "Hecuba.png"
+setMugEntry(HecubaPortrait, HecubaMug, 3, 5, 3, 3)
+
+#define RiverPortrait 0x1E
+RiverMug:
+#incext PortraitFormatter "River.png"
+setMugEntry(RiverPortrait, RiverMug, 3, 4, 3, 2)
+
+#define PlutoPortrait 0x21
+PlutoMug:
+#incext PortraitFormatter "Pluto.png"
+setMugEntry(PlutoPortrait, PlutoMug, 2, 6, 2, 4)
+
+#define CinaedPortrait 0x25
+CinaedMug:
+#incext PortraitFormatter "Cinaed.png"
+setMugEntry(CinaedPortrait, CinaedMug, 2, 5, 3, 3)
+
+#define NausicaaPortrait 0x2A
+NausicaaMug:
+#incext PortraitFormatter "Nausicaa.png"
+setMugEntry(NausicaaPortrait, NausicaaMug, 3, 5, 3, 3)
+
+#define PhantomOnePortrait 0x2D
+PhantomOneMug:
+#incext PortraitFormatter "Phantom1.png"
+setMugEntry(PhantomOnePortrait, PhantomOneMug, 2, 5, 3, 3)
+
+#define PhantomTwoPortrait 0x2E
+PhantomTwoMug:
+#incext PortraitFormatter "Phantom2.png"
+setMugEntry(PhantomTwoPortrait, PhantomTwoMug, 3, 6, 3, 3)
+
+#define PhantomThreePortrait 0x2F
+PhantomThreeMug:
+#incext PortraitFormatter "Phantom3.png"
+setMugEntry(PhantomThreePortrait, PhantomThreeMug, 2, 6, 3, 4)
+
+#define SaturnPortrait 0x30
+SaturnMug:
+#incext PortraitFormatter "Saturn.png"
+setMugEntry(SaturnPortrait, SaturnMug, 3, 5, 3, 3)
+
+#define WeylanPortrait 0x31
+WeylanMug:
+#incext PortraitFormatter "Weylan.png"
+setMugEntry(WeylanPortrait, WeylanMug, 3, 5, 3, 3)
+
+#define IsebelPortrait 0x32
+IsebelMug:
+#incext PortraitFormatter "Isebel.png"
+setMugEntry(IsebelPortrait, IsebelMug, 3, 6, 3, 4)
+
+#define CedricPortrait 0x34
+CedricMug:
+#incext PortraitFormatter "Cedric.png"
+setMugEntry(CedricPortrait, CedricMug, 3, 5, 3, 3)
+
+#define QillaqPortrait 0x35
+QillaqMug:
+#incext PortraitFormatter "Qillaq.png"
+setMugEntry(QillaqPortrait, QillaqMug, 2, 5, 2, 3)
+
+#define TajPortrait 0x37
+TajMug:
+#incext PortraitFormatter "Taj.png"
+setMugEntry(TajPortrait, TajMug, 3, 6, 3, 4)
+
+#define LazuliPortrait 0x38
+LazuliMug:
+#incext PortraitFormatter "Lazuli.png"
+setMugEntry(LazuliPortrait, LazuliMug, 2, 6, 3, 4)
+
+#define ArdalPortrait 0x3B
+ArdalMug:
+#incext PortraitFormatter "Ardal.png"
+setMugEntry(ArdalPortrait, ArdalMug, 3, 5, 3, 3)
+
+#define ElphetnisPortrait 0x3D
+ElphetnisMug:
+#incext PortraitFormatter "Elphetnis.png"
+setMugEntry(ElphetnisPortrait, ElphetnisMug, 2, 5, 3, 3)
+
+#define MantoPortrait 0x3F
+MantoMug:
+#incext PortraitFormatter "Manto.png"
+setMugEntry(MantoPortrait, MantoMug, 2, 5, 3, 3)
+
+#define GeorgeonPortrait 0x40
+GeorgeonMug:
+#incext PortraitFormatter "Georgeon.png"
+setMugEntry(GeorgeonPortrait, GeorgeonMug, 3, 4, 3, 2)
+
+#define CaiaphasPortrait 0x4F
+CaiaphasMug:
+#incext PortraitFormatter "Caiaphas.png"
+setMugEntry(CaiaphasPortrait, CaiaphasMug, 3, 5, 3, 3)
+
+#define HildegardPortrait 0x51
+HildegardMug:
+#incext PortraitFormatter "Hildegard.png"
+setMugEntry(HildegardPortrait, HildegardMug, 3, 5, 3, 3)
+
+#define NiallPortrait 0x52
+NiallMug:
+#incext PortraitFormatter "Niall.png"
+setMugEntry(NiallPortrait, NiallMug, 2, 5, 2, 3)
+
+#define DumuziPortrait 0x53
+DumuziMug:
+#incext PortraitFormatter "Dumuzi.png"
+setMugEntry(DumuziPortrait, DumuziMug, 3, 5, 3, 3)
+
+#define AretePortrait 0x55
+AreteMug:
+#incext PortraitFormatter "Arete.png"
+setMugEntry(AretePortrait, AreteMug, 3, 5, 2, 3)
+
+#define ElphetnisHoodedPortrait 0x57
+ElphetnisHoodedMug:
+#incext PortraitFormatter "ElphetnisHooded.png"
+setMugEntry(ElphetnisHoodedPortrait, ElphetnisHoodedMug, 2, 5, 3, 3)
+
+#define HadrianPortrait 0xA2
+HadrianMug:
+#incext PortraitFormatter "Hadrian.png"
+setMugEntry(HadrianPortrait, HadrianMug, 3, 5, 2, 3)
+
+#define EndymionPortrait 0xA3
+EndymionMug:
+#incext PortraitFormatter "Endymion.png"
+setMugEntry(EndymionPortrait, EndymionMug, 3, 5, 3, 3)
+
+#define YoungHadrianPortrait 0xAD
+YoungHadrianMug:
+#incext PortraitFormatter "Young Hadrian.png"
+setMugEntry(YoungHadrianPortrait, YoungHadrianMug, 2, 5, 3, 3)
+
+#define YoungCharonPortrait 0xAE
+YoungCharonMug:
+#incext PortraitFormatter "CharonYoung.png"
+setMugEntry(0xAE, YoungCharonMug, 3, 5, 3, 3)
+
+#define WesleyPortrait 0xAF
+WesleyMug:
+#incext PortraitFormatter "Wesley.png"
+setMugEntry(WesleyPortrait, WesleyMug, 2, 5, 3, 3)
+
+#define ZaitenPortrait 0xB2
+ZaitenMug:
+#incext PortraitFormatter "Zaiten.png"
+setMugEntry(ZaitenPortrait, ZaitenMug, 2, 5, 2, 3)

@@ -1,0 +1,3 @@
+// setMugEntry(UnitMugID, UnitMugData, MouthX, MouthY, EyeX, EyeY)
+
+#include "Image/Master Mug Installer.event"

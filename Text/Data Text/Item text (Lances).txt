@@ -1,0 +1,44 @@
+## KreivogueName
+Kreivogue [X]
+
+## KreivogueDesc
++15 Hit/Avoid when user's HP is at max.[X]
+
+## IronLanceDesc
+A basic lance.[X]
+
+## SteelLanceDesc
+A reliable lance.[X]
+
+## SilverLanceDesc
+An excellent lance.[X]
+
+## JavelinDesc
+Doubles as ranged attack.[X]
+
+## LightLanceName
+Light Lance[X]
+
+## LightLanceDesc
+An almost weightless lance.[X]
+
+## ToxicLanceName
+Toxic Lance[X]
+
+## ToxicLanceDesc
+Coated in lethal poison.[X]
+
+## BraveLanceDesc
+Can strike consecutively.[X]
+
+## KillerLanceDesc
+Improves critical hit rate.[X]
+
+## HorseslayerDesc
+Effective against cavalry.[X]
+
+## SpearDesc
+Doubles as ranged attack.[X]
+
+## AxereaverDesc
+Strong against axes.[X]

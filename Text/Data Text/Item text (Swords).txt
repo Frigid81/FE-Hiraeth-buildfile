@@ -1,0 +1,83 @@
+## IronSwordDesc
+A basic sword.[X]
+
+## SureSwordName
+Sure Sword[X]
+
+## SureSwordDesc
+Accurate and lightweight.[X]
+
+## SteelSwordDesc
+A reliable sword.[X]
+
+## SilverSwordDesc
+An excellent sword.[X]
+
+## IronBladeDesc
+A basic heavy sword.[X]
+
+## SteelBladeDesc
+A reliable heavy sword.[X]
+
+## SilverBladeDesc
+An intimidating but heavy sword.[X]
+
+## ToxicSwordName
+Toxic Sword[X]
+
+## ToxicSwordDesc
+Coated in lethal poison.[X]
+
+## EpeeName
+Epee[X]
+
+## EpeeDesc
+Effective vs. armored and cavalry.[X]
+
+## DyrnwynName
+Dyrnwyn[X]
+
+## DyrnwynDesc
+Expels fire at range. Physical damage.[X]
+
+## MiyabiName
+Miyabi[X]
+
+## MiyabiDesc
+An elegant but deadly blade.[X]
+
+## KillingEdgeDesc
+Improves critical hit rate.[X]
+
+## BraveSwordDesc
+Can strike consecutively.[X]
+
+## MetalrenderName
+Metalrender[X]
+
+## MetalrenderDesc
+Effective against armored units.[X]
+
+## EsiliaName
+Esilia[X]
+
+## EsiliaDesc
++15 Resistance.[X]
+
+## SunbrandName
+Sunbrand[X]
+
+## SunbrandDesc
+Heals nearby units after attacking.[X]
+
+## MoonbrandName
+Moonbrand[X]
+
+## MoonbrandDesc
+User's attack heals. Cannot be countered.[X]
+
+## LancereaverDesc
+Strong against spears.[X]
+
+## ZanbatoDesc
+Effective against cavalry.[X]

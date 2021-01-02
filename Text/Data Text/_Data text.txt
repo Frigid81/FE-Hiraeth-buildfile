@@ -1,0 +1,16 @@
+#include "Character text (Playable).txt"
+
+#include "Character text (Enemies and NPCs).txt"
+
+#include "Class Text.txt"
+
+#include "Item text (Swords).txt"
+#include "Item text (Lances).txt"
+#include "Item text (Axes).txt"
+#include "Item text (Bows).txt"
+#include "Item text (Fire).txt"
+#include "Item text (Thunder).txt"
+#include "Item text (Wind).txt"
+#include "Item text (Light).txt"
+#include "Item text (Innate).txt"
+#include "Item text (Items).txt"

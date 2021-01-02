@@ -1,0 +1,32 @@
+
+
+#define SureSword 0x2
+#define ToxicSword 0x8
+#define Epee 0x9
+#define Dyrnwyn 0xA
+#define Miyabi 0xC
+#define Metalrender 0xE
+#define Esilia 0xF
+#define Sunbrand 0x10
+#define Moonbrand 0x11
+#define LightLance 0x15
+#define ToxicLance 0x18
+
+
+#define SureSwordIcon 0x2
+#define ToxicSwordIcon 0x8
+#define EpeeIcon 0x9
+#define DyrnwynIcon 0xA
+#define MiyabiIcon 0xC
+#define MetalrenderIcon 0xE
+#define EsiliaIcon 0xF
+#define SunbrandIcon 0x10
+#define MoonbrandIcon 0x11
+#define LightLanceIcon 0x15
+#define ToxicLanceIcon 0x18
+
+
+
+
+#define Kreivogue 0x78
+#define KreivogueIcon 0xAD

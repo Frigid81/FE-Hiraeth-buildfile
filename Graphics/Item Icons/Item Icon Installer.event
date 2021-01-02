@@ -1,0 +1,123 @@
+#include "ExpandedItemIconTable/expandicontable.event"
+
+PUSH
+
+	
+	ORG WeaponIconOffset(IronSwordIcon)
+	#incbin "Icons/IronSword.dmp"
+
+	ORG WeaponIconOffset(SteelSwordIcon)
+	#incbin "Icons/SteelSword.dmp"
+
+	ORG WeaponIconOffset(SilverSwordIcon)
+	#incbin "Icons/SilverSword.dmp"
+
+	ORG WeaponIconOffset(SureSwordIcon)
+	#incbin "Icons/SureSword.dmp"
+	
+	ORG WeaponIconOffset(IronBladeIcon)
+	#incbin "Icons/IronBlade.dmp"
+
+	ORG WeaponIconOffset(SteelBladeIcon)
+	#incbin "Icons/SteelBlade.dmp"
+
+	ORG WeaponIconOffset(SilverBladeIcon)
+	#incbin "Icons/SilverBlade.dmp"
+	
+
+	ORG WeaponIconOffset(ToxicSwordIcon)
+	#incbin "Icons/ToxicSword.dmp"
+
+	ORG WeaponIconOffset(EpeeIcon)
+	#incbin "Icons/Epee.dmp"
+
+	ORG WeaponIconOffset(BraveSwordIcon)
+	#incbin "Icons/BraveSword.dmp"
+	
+	ORG WeaponIconOffset(DyrnwynIcon)
+	#incbin "Icons/Dyrnwyn.dmp"
+
+	ORG WeaponIconOffset(MiyabiIcon)
+	#incbin "Icons/Miyabi.dmp"
+	
+	ORG WeaponIconOffset(KillingEdgeIcon)
+	#incbin "Icons/KillingEdge.dmp"
+
+	ORG WeaponIconOffset(MetalrenderIcon)
+	#incbin "Icons/Metalrender.dmp"
+
+	ORG WeaponIconOffset(EsiliaIcon)
+	#incbin "Icons/Esilia.dmp"
+	
+	ORG WeaponIconOffset(SunbrandIcon)
+	#incbin "Icons/Sunbrand.dmp"
+
+	ORG WeaponIconOffset(MoonbrandIcon)
+	#incbin "Icons/Moonbrand.dmp"
+
+	ORG WeaponIconOffset(LancereaverIcon)
+	#incbin "Icons/Lancereaver.dmp"
+
+	ORG WeaponIconOffset(ZanbatoIcon)
+	#incbin "Icons/Zanbato.dmp"
+	
+	
+	
+	
+	
+	
+	ORG WeaponIconOffset(IronLanceIcon)
+	#incbin "Icons/IronLance.dmp"
+
+	ORG WeaponIconOffset(SteelLanceIcon)
+	#incbin "Icons/SteelLance.dmp"
+
+	ORG WeaponIconOffset(SilverLanceIcon)
+	#incbin "Icons/SilverLance.dmp"
+
+	ORG WeaponIconOffset(LightLanceIcon)
+	#incbin "Icons/LightLance.dmp"
+
+	
+	ORG WeaponIconOffset(ToxicLanceIcon)
+	#incbin "Icons/ToxicLance.dmp"
+
+	ORG WeaponIconOffset(BraveLanceIcon)
+	#incbin "Icons/BraveLance.dmp"
+
+	ORG WeaponIconOffset(KillerLanceIcon)
+	#incbin "Icons/KillerLance.dmp"
+
+	ORG WeaponIconOffset(HorseslayerIcon)
+	#incbin "Icons/Horseslayer.dmp"
+	
+	ORG WeaponIconOffset(JavelinIcon)
+	#incbin "Icons/Javelin.dmp"
+
+	ORG WeaponIconOffset(SpearIcon)
+	#incbin "Icons/Spear.dmp"
+
+	ORG WeaponIconOffset(AxereaverIcon)
+	#incbin "Icons/Axereaver.dmp"
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	ORG WeaponIconOffset(KreivogueIcon)
+	#incbin "Icons/Kreivogue.dmp"
+
+	
+	
+	
+	
+
+POP
+
+
